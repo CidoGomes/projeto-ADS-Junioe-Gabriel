@@ -1,0 +1,22 @@
+<!DOCTYPE html>;
+<head>
+   
+<body>
+    <body bgcolor="#B0C4DE"> 
+       
+    <h2>Login:</h2>
+  E-mail: <E-mail><input type="text" name="E-mail:"></E-mail><br><br>
+   Senha:  <input type="password" id="pass" name="password"
+   minlength="8" required><br><br>
+
+   <BUtton > Entrar </BUtton><br><br>
+   <form action="file:///C:/Users/AGDSJUN/Desktop/projeto%20HTML/cadastro.html">
+    <input type="submit" value="Cadastro" />
+    <form action="#">
+        <input type="submit" value="Esqueci senha" />
+    
+    </form>
+    
+</body>
+</head>
+</html>.
