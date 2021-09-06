@@ -1,22 +1,27 @@
-<!DOCTYPE html>;
-<head>
-   
-<body>
-    <body bgcolor="#B0C4DE"> 
-       
-    <h2>Login:</h2>
-  E-mail: <E-mail><input type="text" name="E-mail:"></E-mail><br><br>
-   Senha:  <input type="password" id="pass" name="password"
-   minlength="8" required><br><br>
+<!DOCTYPE html>
+<html lang="en">
 
-   <BUtton > Entrar </BUtton><br><br>
-   <form action="file:///C:/Users/AGDSJUN/Desktop/projeto%20HTML/cadastro.html">
-    <input type="submit" value="Cadastro" />
-    <form action="#">
-        <input type="submit" value="Esqueci senha" />
-    
-    </form>
-    
-</body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
+<body>
+    <main class="login">
+        <div class="login_container">
+            <h1 class="login_title">Login</h1>
+            <form class="login_form" name="formulario">
+                <input class="login_input" type="cpf" name="cpf" placeholder="CPF">
+                <span class="login_input-border"></span>
+                <input class="login_input" type="password" min-length="6" max-length="12" name="senha"
+                    placeholder="Senha">
+                <span class="login_input-border"></span>
+                <button class="login_submit">Entrar</button>
+                <button class="recuperar_senha">Recuperar senha</button>
+                <button class="cadastro_input">Cadastrar</button>
+</body>
+
 </html>
